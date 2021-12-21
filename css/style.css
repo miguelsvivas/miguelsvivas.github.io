@@ -42,7 +42,7 @@ nav{
 	width:100%;
 	box-sizing: border-box;
 	padding: 10px 50px;
-	background-color:#F4F7FF;
+	background-color:#000000;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
 	z-index: 1;
 }
@@ -64,9 +64,15 @@ nav{
 .logo{
 	font-size: 25px;
 	font-weight: bold;
-	color:#292929;
+	color:#fff;
 	font-family:Arial, Helvetica, sans-serif;
 }
+
+.logo span{
+	text-decoration: underline;
+	text-decoration-color: aqua;
+}
+
 .toggle{
 	display: none;
 }
