@@ -87,8 +87,8 @@ nav{
 	font-family: calibri;
 	width: 500px;
 	position: absolute;
-	left: 20%;
-	top: 50%;
+	left: 50%;
+	top: 40%;
 	transform: translate(-20%,-50%);
 }
 .name p:nth-child(1),.name .details{
@@ -115,16 +115,7 @@ nav{
 	background-color: #131313;
 	transition: all ease 0.5s;
 }
-.black-line {
-  align-self: end;
-  width: 50%;
-  height: 15%;
-  margin-bottom: 4em;
-  position: absolute;
-	bottom:0px;
-	left: -3%;
-	border-right: 1px solid  rgba(41,41,41,0.30);
-}
+
 
 .black-line::after{
   content: ' ';
@@ -205,12 +196,12 @@ nav{
 	transition: all ease 0.3s;
 }
 #proyectos{
-		width:100%;
+	width:100%;
 	height:100vh;
 	box-sizing: border-box;
 	font-family: calibri;
 	display: flex;
-	background-color: #5832b1;
+	background-color: #edf1fd;
 	margin-bottom: 1em;
 	flex-direction: column;
 	align-items: center;
@@ -220,7 +211,7 @@ nav{
 }
 
 .s-heading h1{
-	color:#FFFFFF;
+	color:#000000;
 	font-size: 3rem;
 	margin: 0px;
 	padding: 0px;
@@ -577,7 +568,7 @@ width: 100%;
 		
 	}
 	.name{
-		left: 50%;
+		left: 70%;
 		top: 50%;
 		transform: translate(-50%,-50%);
 	}
