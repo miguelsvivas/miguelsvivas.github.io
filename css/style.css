@@ -96,7 +96,7 @@ nav{
 }
 .name p:nth-child(1),.name .details{
 	color:#6c707c;
-	font-size: 16px;
+	font-size: 26px;
 }
 .name h1{
 	font-family:Poppins;
@@ -170,7 +170,7 @@ nav{
 	padding: 0px;
 }
 .about-text p{
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	color:rgba(255,255,255,0.90);
 	
 }
@@ -536,9 +536,9 @@ width: 100%;
 }
 
 .about-model .about-title{
-	font-size: 20px;
+	font-size: 30px;
 	font-family: calibri;
-	color: #FFF;
+	color: #63D9FF;
 	margin-bottom: 1px;
 }
 
@@ -591,17 +591,24 @@ width: 100%;
 		transform: translate(-50%,-50%);
 	}
 	.about-model{
-		display: none;
+
+		flex-grow: 1;
+	}
+	.about-model img{
+
+		width: 20px;
 	}
 	#about{
 		justify-content: center;
 		padding-top: 0px;
+		margin-top: 150px;
+		margin-bottom: 100px;
 	}
 	.about-text{
-		width: 90%;
+		width: 95%;
 	}
 	.about-text h1{
-		font-size:4rem;
+		font-size:2rem;
 	}
 	
 	.p-container{
