@@ -238,11 +238,13 @@ nav{
 .s-b-img{
 	width: 100%;
 	height: 70%;
+	/* object-fit: cover; */
 	
 }
 .s-b-img img{
 	width:100%;
 	height: 100%;
+	object-fit: cover;
 	
 }
 .s-b-text{
@@ -529,7 +531,7 @@ width: 100%;
 }
 
 .about-model img{
-	width: 70px;
+	width: 10px;
 	margin-left: 40px;
 	margin-right: 5px;
 	margin-top: 70px;
