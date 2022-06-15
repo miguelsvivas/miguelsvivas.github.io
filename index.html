@@ -14,11 +14,11 @@
 </head>
 
 <body>
-	<!--Principal------------------------>
+
 	<section id="main">
-		<!--Navegación-------------------------------->
+	
 		<nav>
-			<!--Logo--->
+			
 			<a href="#main" class="logo"><span>Miguel</span> Vivas</a>
 			<!--Menu--------->
 			<div class="toggle"></div>
@@ -30,19 +30,22 @@
 			</ul>
 
 		</nav>
-		<!--Nombre--------------------------->
+		
 		<div class="name">
-			<h1>Hola, Soy Miguel
+			<h1 style="font-size: 65px;">Hola,<br/>
+				 Soy Miguel
 			</h1>
-			<!--detalles--------------->
-			<p class="details">Desarrollador web ...</p>
+			
+			<p class="details">Desarrollador web y aquí encontrarás algunos de mis proyectos.</p>
 			
 
 		</div>
 	
 		
 		<div class="social">
-			<a href="https://github.com/miguelvivas13" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://github.com/miguelsvivas" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+
 		</div>
 
 
@@ -50,26 +53,26 @@
 
 
 	</section>
-	<!--sobre----------------------->
+	
 	<section id="about">
-		<!--text---------------------->
+		
 		<div class="about-text">
-			<h1>Sobre mí</h1>
+			<h1 style="font-size: 45px;">Sobre mí</h1>
+			<hr>
 			<p>
-				Mi nombre es miguel vivas, tengo 25 años, soy un  tecnólogo en  sistemas de información
-				apasionado por  el desarrollo web con conocimientos en backend y frontend, soy una persona 
-				autodidacta que disfruta de aprender constantemente.
+				Mi nombre es miguel vivas, egresado del programa de tecnología en sistemas de información 
+				de la universidad del valle, apasionado por el desarrollo web. Soy una persona que le gusta
+				afrontar nuevos retos y aprender de cada experiencia.
 				
 			</p>
-		</div>
-		<!--acerca-model----------------->
+		
 		
 		
 		<div class="about-model">
 			<div class="about-title">
-				<span>Tecnologias que manejo </span>
+				<span>Habilidades </span>
 			</div>
-			<div  style="display: flex;align-items: content;">
+			<div class="tecnologias"  style="display: flex;align-items: content;">
 				<div style="text-align: center;" >
 					<img src="images/php.png" alt="php" title="php" width="10px" >
 					<p>Php</p>
@@ -101,7 +104,7 @@
 			
 		</div>
 		</div>
-
+	</div>
 
 	</section>
 	<!--servicios-------------------->
@@ -122,7 +125,14 @@
 					<img src="images/proyecto-spring.png">
 				</div>
 				<!--text----------------->
+
+				<div class="desc-proyecto">
+					<p>Este proyecto es un sistema de gestión de blog elaborado con spring boot, thymeleaf y 
+						base de datos postgresql.</p>
+				</div>
+			
 				<div class="s-b-text">
+
 					<a href="https://github.com/miguelsvivas/Blog-spring-boot-thymeleaf"
 					target="_blank" title="GitHub">
 						<i class="fab fa-github fa-2x" style="text-decoration: none;"></i></a>
@@ -133,32 +143,20 @@
 						</a>
 				</div>
 			</div>
-			<!--box-2---------------->
+
 			<div class="s-box">
-				<!--img------------->
+				
 				<div class="s-b-img">
-					<!--type----------->
-					<div class="s-type">Sistema de ventas</div>
-					<!--name------->
-					<img src="images/proyectolaravel.png">
-				</div>
-				<!--text----------------->
-				<div class="s-b-text">
-					<a href="https://github.com/miguelsvivas/Sistema-ventas"
-					target="_blank" title="GitHub">
-						<i class="fab fa-github fa-2x" style="text-decoration: none;"></i></a>
-				</div>
-			</div>
-			<!--box-3---------------->
-			<div class="s-box">
-				<!--img------------->
-				<div class="s-b-img">
-					<!--type----------->
-					<div class="s-type">Proyecto Angular</div>
-					<!--name------->
+					
+					<div class="s-type">CryptoApp</div>
 					<img src="images/proyecto-angular.png" >
 				</div>
 				<!--text----------------->
+				<div class="desc-proyecto">
+					<p>Proyecto elaborado con Angular 12, bootstrap y la api de criptomonedas
+						de coingecko						
+						 </p>
+				</div>
 				<div class="s-b-text">
 
 					<a href="https://github.com/miguelsvivas/Angular-CoinGeckoAPI"
@@ -169,20 +167,44 @@
 					target="_blank" style="margin-left: 2em;" title="Demo">
 					<i class="fas fa-external-link-alt fa-1x"></i>
 					</a>
+					<br>
 
 				</div>
 			</div>
+		
+			<div class="s-box">
+			
+				<div class="s-b-img">
+					
+					<div class="s-type">Sistema punto de venta</div>
+
+					<img src="images/proyectolaravel.png">
+				</div>
+
+				<div class="desc-proyecto">
+					<p>Sistema para punto de venta implementado en laravel, javascript, bootstrap y el motor de plantillas blade					
+						 </p>
+				</div>
+			
+				<div class="s-b-text">
+					<a href="https://github.com/miguelsvivas/Sistema-inventario-ventas"
+					target="_blank" title="GitHub">
+						<i class="fab fa-github fa-2x" style="text-decoration: none;"></i></a>
+				</div>
+			</div>
+
+			
 		</div>
 	</section>
 
-	<!--contact-form------------------->
+	
 	<section id="contact-form">
 		<form action="https://formsubmit.co/5bc9fbe8340564480a9e0e89044115f2" method="POST">
 			
 			<!--left--------------------------------------->
 			<div class="contact-left">
 				<h1 class="c-l-heading">
-					<font style="border-bottom: 3px solid #63D9FF;">Escribeme</font>
+					<font style="border-bottom: 3px solid #63D9FF;">Contacto</font>
 				</h1>
 				<!--name-------->
 				<div class="f-name">
@@ -195,14 +217,14 @@
 					<input type="email" name="email" placeholder="Ejemplo@gmail.com" />
 				</div>
 			</div>
-			<!--right------------------------------------------->
+			
 			<div class="contact-right">
-				<!--message-------->
+				
 				<div class="message">
 					<font>Mensaje</font>
 					<textarea name="message" rows="5" cols="20" placeholder="Escribe algo..."></textarea>
 				</div>
-				<!--submit-btn------------>
+				
 				<button type="submit">Enviar</button>
 			</div>
 
